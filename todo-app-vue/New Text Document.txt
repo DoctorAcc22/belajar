@@ -1,0 +1,5 @@
++ Hasilnya gak sesuai sama contoh
++ Pas create error
++ container.vue line 44 error
++ masih ga mudeng gimana keterkaitannya, trus bagaimana bisa jadi error
++ udah tak utak atik, dibantu chatgpt ga berhasil
