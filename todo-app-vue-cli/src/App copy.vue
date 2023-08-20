@@ -1,6 +1,6 @@
 <template>
-  <h1>To Do App</h1>
-  
+  <h1>ToDo App</h1>
+
   <form @submit.prevent="addTodo()">
       <label>New ToDo</label>
       <input v-model="newTodo" name="newTodo" autocomplete="off">
@@ -24,45 +24,40 @@ export default {
   setup () {
     const newTodo = ref('');
     const defaultData = [{
-      done: false,
-      content: 'Write a blog post'
+        done: false,
+        content: 'Write a blog post'
     }]
     const todosData = JSON.parse(localStorage.getItem('todos')) || defaultData;
     const todos = ref(todosData);
-
-    function saveData () {
-      const storageData = JSON.stringify(todos.value);
-      localStorage.setItem('todos', storageData);
-    }
-
     function addTodo () {
-      if (newTodo.value) {
-        todos.value.push({
-          done: false,
-          content: newTodo.value
-        });
-        newTodo.value = '';
-      }
-      saveData();
+        if (newTodo.value) {
+            todos.value.push({
+                done: false,
+                content: newTodo.value
+            });
+            newTodo.value = '';
+        }
+        saveData();
     }
-
     function doneTodo (todo) {
-      todo.done = !todo.done
-      saveData();
+        todo.done = !todo.done
+        saveData();
     }
-
     function removeTodo (index) {
-      todos.value.splice(index, 1);
-      saveData();
+        todos.value.splice(index, 1);
+        saveData();
     }
-
+    function saveData () {
+        const storageData = JSON.stringify(todos.value);
+        localStorage.setItem('todos', storageData);
+    }
     return {
-      todos,
-      newTodo,
-      addTodo,
-      doneTodo,
-      removeTodo,
-      saveData
+        todos,
+        newTodo,
+        addTodo,
+        doneTodo,
+        removeTodo,
+        saveData
     }
   }
 }

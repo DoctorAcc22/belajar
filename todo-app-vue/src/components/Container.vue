@@ -2,19 +2,16 @@
   <div class="container">
     <input type="text" v-model="msg">
     <button @click="create">Create</button>
+
     <TodoList :todoList="todoList" :deleteItem="deleteItem" />
   </div>
 </template>
   
 <script>
-// import TodoList from './TodoList';
 import TodoList from './TodoList.vue';
-// import { ref } from "@vue/runtime-core";
 import { ref } from 'vue';
 export default {
-  components: {
-    TodoList,
-  },
+  components: {TodoList},
 
   setup() {
     let exampleData = [
@@ -35,15 +32,10 @@ export default {
     
     const deleteItem = (idx) => {
       todoList.value = todoList.value.filter((item) => item.id !== idx);
-    }
+    }    
 
-    // return {
-    //   TodoLists: ref(exampleData),
-    //   Create,
-    //   Delete: Delete(idx)
-    // };
     return {
-      todoLists: todoList,
+      todoList: todoList,
       create: create,
       delete: deleteItem,
       msg
