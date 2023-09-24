@@ -1,6 +1,5 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-
 import HomeComponent from "./components/HomeComponent.vue"
 import ProjectsComponent from "./components/ProjectsComponent.vue"
 import ProjectDetailComponent from "./components/ProjectDetailComponent.vue"
@@ -10,9 +9,9 @@ import { createRouter, createWebHistory } from "vue-router"
 const app = createApp(App)
 
 const routes = [
-    { path: "/project/:id", component: ProjectDetailComponent },
+    { path: "/", component: HomeComponent },
     { path: "/projects", component: ProjectsComponent },
-	{ path: "/", component: HomeComponent }
+    { path: "/project/:id", component: ProjectDetailComponent },
 ]
 
 const router = createRouter({
@@ -20,9 +19,8 @@ const router = createRouter({
     routes
 })
 
-app.config.globalProperties.$apiURL = "http://127.0.0.1:8000/api"
 app.config.globalProperties.$apiBaseURL = "http://127.0.0.1:8000"
+app.config.globalProperties.$apiURL = "http://127.0.0.1:8000/api"
 
 app.use(router)
-
 app.mount('#app')
