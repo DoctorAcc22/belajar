@@ -30,7 +30,8 @@
                         <div v-for="project in projects" class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;government&quot;,&quot;healthcare&quot;]">                        
                             <div class="project-img-container">
                                 <a class="gallery-popup" href="images/projects/project1.jpg">
-                                    <img class="img-fluid" src="../assets/images/projects/project1.jpg" alt="project-image">
+                                    <img v-if="project.images.length > 0" v-for="image in project.images" class="img-fluid" v-bind:src="this.$apiBaseURL + '/storage/' + image.file_path" alt="project-image">
+                                    <img v-else class="img-fluid" src="../assets/images/projects/project1.jpg">
                                     <span class="gallery-icon"><i class="fa fa-plus"></i></span>
                                 </a>
                                 <div class="project-item-info">

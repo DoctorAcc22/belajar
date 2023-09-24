@@ -5,15 +5,10 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Project extends Model
+class ProjectImage extends Model
 {
     use HasFactory;
 
-    public $table = "projects";
+    public $table = "project_images";
     public $timestamps = true;
-
-    public function images()
-    {
-        return $this->hasMany("App\Models\ProjectImage", "project_id", "id");
-    }
 }

@@ -22,6 +22,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::group([
 	"prefix" => "projects"
 ], function () {
+    Route::post("/fetchSingle", [ProjectController::class, "fetchSingle"]);
     Route::post("/fetch", [ProjectController::class, "fetch"]);
 	Route::post("/create", [ProjectController::class, "create"]);
 });
