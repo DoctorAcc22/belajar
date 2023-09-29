@@ -1,3 +1,11 @@
+/* eslint-disable */
+
+import GLightbox from 'glightbox';
+import PureCounter from '@srexi/purecounterjs';
+import Isotope from 'isotope-layout';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 /**
 * Template Name: Append
 * Updated: Aug 30 2023 with Bootstrap v5.3.1
@@ -184,17 +192,6 @@ document.addEventListener('DOMContentLoaded', () => {
       faqItem.parentNode.classList.toggle('faq-active');
     });
   });
-
-  /**
-   * Init swiper sliders
-   */
-  function initSwiper() {
-    document.querySelectorAll('.swiper').forEach(function(swiper) {
-      let config = JSON.parse(swiper.querySelector('.swiper-config').innerHTML.trim());
-      new Swiper(swiper, config);
-    });
-  }
-  window.addEventListener('load', initSwiper);
 
   /**
    * Animation on scroll function and init
