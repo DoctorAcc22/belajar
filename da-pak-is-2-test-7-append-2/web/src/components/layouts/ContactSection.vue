@@ -27,7 +27,7 @@
 							<div class="info-item" data-aos="fade" data-aos-delay="300">
 								<i class="bi bi-whatsapp"></i>
 								<h3>Call Us (WhatsApp)</h3>
-			
+
 								<p>
 									<a href="https://wa.me/6285227487277?text=hi" target="blank_">0852 2748 7277</a> Beda Ganesha (Yogyakarta)
 								</p>
