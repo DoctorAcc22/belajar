@@ -25,8 +25,7 @@
 
     <RecentPostsSection />
 
-    <ContactSection />
-
+    <ContactSection />    
 </template>
 
 <script>
