@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import HomeComponent from "./components/layouts/landing-page/HomeComponent.vue"
-import LoginComponent from "./components/layouts/back-office/LoginComponent.vue"
+import SignIn from "./components/layouts/back-office/SignIn.vue"
 import { createRouter, createWebHistory } from "vue-router"
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -13,7 +13,7 @@ app.config.globalProperties.$apiURL = "http://127.0.0.1:8000/api"
 
 const routes = [
     { path: "/", component: HomeComponent },
-    { path: "/login", name: 'login', component: LoginComponent },
+    { path: "/signin", name: 'signin', component: SignIn },
 ]
 
 const router = createRouter({

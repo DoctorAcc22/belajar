@@ -1,7 +1,7 @@
 <template>
 	<section id="stats" class="stats">
 
-		<img src="../../../assets/img/stats-bg.jpg" alt="" data-aos="fade-in">
+		<img src="../../../assets/landing-page/img/stats-bg.jpg" alt="" data-aos="fade-in">
 
 		<div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
 

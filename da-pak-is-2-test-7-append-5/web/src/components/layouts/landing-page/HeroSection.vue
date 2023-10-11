@@ -1,13 +1,14 @@
 <template>
 	<section id="hero" class="hero">
 
-		<img src="../../../assets/img/hero-bg.jpg" class="bg" alt="" data-aos="fade-in">
+		<img src="../../../assets/landing-page/img/hero-bg.jpg" class="bg" alt="" data-aos="fade-in">
 
 		<div class="container">
 			<div class="row">
 				<div class="col-lg">
 					<div class="row">
-						<img src="../../../assets/img/logo-transparent.png" class="logo" alt="" data-aos="fade-in">
+						<img src="../../../assets/landing-page/img/logo-transparent.png" class="logo" alt=""
+							data-aos="fade-in">
 					</div>
 					<div class="row">
 						<h1 data-aos="fade-up" data-aos-delay="100">PROGRAM PERUSAHAAN (SCM, ERP, CRM)</h1>
@@ -54,7 +55,7 @@
 				</div>
 
 				<!-- <div class="col-lg-5">
-					<img src="../../../assets/img/accountant.png" class="accountant" alt="" data-aos="fade-in">
+					<img src="../../../assets/landing-page/img/accountant.png" class="accountant" alt="" data-aos="fade-in">
 				</div> -->
 			</div>
 

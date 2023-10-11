@@ -16,7 +16,7 @@
 					<article>
 
 						<div class="post-img">
-							<img src="../../../assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
+							<img src="../../../assets/landing-page/img/blog/blog-1.jpg" alt="" class="img-fluid">
 						</div>
 
 						<p class="post-category">Politics</p>
@@ -26,7 +26,7 @@
 						</h2>
 
 						<div class="d-flex align-items-center">
-							<img src="../../../assets/img/blog/blog-author.jpg" alt=""
+							<img src="../../../assets/landing-page/img/blog/blog-author.jpg" alt=""
 								class="img-fluid post-author-img flex-shrink-0">
 							<div class="post-meta">
 								<p class="post-author">Maria Doe</p>
@@ -43,7 +43,7 @@
 					<article>
 
 						<div class="post-img">
-							<img src="../../../assets/img/blog/blog-2.jpg" alt="" class="img-fluid">
+							<img src="../../../assets/landing-page/img/blog/blog-2.jpg" alt="" class="img-fluid">
 						</div>
 
 						<p class="post-category">Sports</p>
@@ -53,7 +53,7 @@
 						</h2>
 
 						<div class="d-flex align-items-center">
-							<img src="../../../assets/img/blog/blog-author-2.jpg" alt=""
+							<img src="../../../assets/landing-page/img/blog/blog-author-2.jpg" alt=""
 								class="img-fluid post-author-img flex-shrink-0">
 							<div class="post-meta">
 								<p class="post-author">Allisa Mayer</p>
@@ -70,7 +70,7 @@
 					<article>
 
 						<div class="post-img">
-							<img src="../../../assets/img/blog/blog-3.jpg" alt="" class="img-fluid">
+							<img src="../../../assets/landing-page/img/blog/blog-3.jpg" alt="" class="img-fluid">
 						</div>
 
 						<p class="post-category">Entertainment</p>
@@ -80,7 +80,7 @@
 						</h2>
 
 						<div class="d-flex align-items-center">
-							<img src="../../../assets/img/blog/blog-author-3.jpg" alt=""
+							<img src="../../../assets/landing-page/img/blog/blog-author-3.jpg" alt=""
 								class="img-fluid post-author-img flex-shrink-0">
 							<div class="post-meta">
 								<p class="post-author">Mark Dower</p>

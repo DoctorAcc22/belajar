@@ -20,7 +20,7 @@
 						<swiper-slide>
 							<div class="testimonial-item">
 								<div class="d-flex">
-									<img src="../../../assets/img/testimonials/testimonials-1.jpg"
+									<img src="../../../assets/landing-page/img/testimonials/testimonials-1.jpg"
 										class="testimonial-img flex-shrink-0" alt="">
 									<div>
 										<h3>Saul Goodman</h3>
@@ -45,7 +45,7 @@
 						<swiper-slide>
 							<div class="testimonial-item">
 								<div class="d-flex">
-									<img src="../../../assets/img/testimonials/testimonials-2.jpg"
+									<img src="../../../assets/landing-page/img/testimonials/testimonials-2.jpg"
 										class="testimonial-img flex-shrink-0" alt="">
 									<div>
 										<h3>Sara Wilsson</h3>
@@ -70,7 +70,7 @@
 						<swiper-slide>
 							<div class="testimonial-item">
 								<div class="d-flex">
-									<img src="../../../assets/img/testimonials/testimonials-3.jpg"
+									<img src="../../../assets/landing-page/img/testimonials/testimonials-3.jpg"
 										class="testimonial-img flex-shrink-0" alt="">
 									<div>
 										<h3>Jena Karlis</h3>
@@ -95,7 +95,7 @@
 						<swiper-slide>
 							<div class="testimonial-item">
 								<div class="d-flex">
-									<img src="../../../assets/img/testimonials/testimonials-4.jpg"
+									<img src="../../../assets/landing-page/img/testimonials/testimonials-4.jpg"
 										class="testimonial-img flex-shrink-0" alt="">
 									<div>
 										<h3>Matt Brandon</h3>
@@ -120,7 +120,7 @@
 						<swiper-slide>
 							<div class="testimonial-item">
 								<div class="d-flex">
-									<img src="../../../assets/img/testimonials/testimonials-5.jpg"
+									<img src="../../../assets/landing-page/img/testimonials/testimonials-5.jpg"
 										class="testimonial-img flex-shrink-0" alt="">
 									<div>
 										<h3>John Larson</h3>

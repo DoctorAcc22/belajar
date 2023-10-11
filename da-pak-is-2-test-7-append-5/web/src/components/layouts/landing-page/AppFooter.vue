@@ -72,14 +72,14 @@
 </template>
 
 <script>
-import "../../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"
-import "../../../assets/vendor/glightbox/js/glightbox.min.js"
-import "../../../assets/vendor/purecounter/purecounter_vanilla.js"
-import "../../../assets/vendor/isotope-layout/isotope.pkgd.min.js"
-import "../../../assets/vendor/swiper/swiper-bundle.min.js"
-import "../../../assets/vendor/aos/aos.js"
-import "../../../assets/vendor/php-email-form/validate.js"
-import "../../../assets/js/main.js"
+import "../../../assets/landing-page/vendor/bootstrap/js/bootstrap.bundle.min.js"
+import "../../../assets/landing-page/vendor/glightbox/js/glightbox.min.js"
+import "../../../assets/landing-page/vendor/purecounter/purecounter_vanilla.js"
+import "../../../assets/landing-page/vendor/isotope-layout/isotope.pkgd.min.js"
+import "../../../assets/landing-page/vendor/swiper/swiper-bundle.min.js"
+import "../../../assets/landing-page/vendor/aos/aos.js"
+import "../../../assets/landing-page/vendor/php-email-form/validate.js"
+import "../../../assets/landing-page/js/main.js"
 
 export default {
 	name: "AppFooter",

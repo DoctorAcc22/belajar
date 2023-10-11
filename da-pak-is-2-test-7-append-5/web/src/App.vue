@@ -1,7 +1,7 @@
 <template>
-	<AppHeader v-if="!isLogin" />
+	<AppHeader v-if="!isSignIn" />
 	<RouterView />
-	<AppFooter v-if="!isLogin" />
+	<AppFooter v-if="!isSignIn" />
 </template>
 
 <script>
@@ -12,18 +12,18 @@ import AppFooter from "./components/layouts/landing-page/AppFooter.vue"
 export default {
 	name: 'App',
 	computed: {
-		isLogin() {
-			return this.$route.name == 'login'
+		isSignIn() {
+			return this.$route.name == 'signin'
 		}
 	},
 	mounted() {
 		const faviconLink = document.createElement('link');
-		faviconLink.href = require('../src/assets/img/favicon.png'); // Pastikan path-nya benar
+		faviconLink.href = require('../src/assets/landing-page/img/favicon.png'); // Pastikan path-nya benar
 		faviconLink.rel = 'icon';
 		document.head.appendChild(faviconLink);
 
 		const appleTouchIconLink = document.createElement('link');
-		appleTouchIconLink.href = require('../src/assets/img/apple-touch-icon.png'); // Pastikan path-nya benar    
+		appleTouchIconLink.href = require('../src/assets/landing-page/img/apple-touch-icon.png'); // Pastikan path-nya benar    
 		appleTouchIconLink.rel = 'apple-touch-icon';
 		document.head.appendChild(appleTouchIconLink);
 	},
