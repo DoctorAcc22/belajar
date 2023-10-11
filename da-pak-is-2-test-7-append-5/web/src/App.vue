@@ -1,9 +1,7 @@
 <template>
-	<AppHeader />
-    <main id="main">
-      <router-view />
-    </main>
-	<AppFooter />
+  <AppHeader v-if="!isLogin" />
+  <RouterView />
+  <AppFooter v-if="!isLogin" />
 </template>
 
 <script>
@@ -13,7 +11,12 @@ import AppFooter from "./components/layouts/AppFooter.vue"
 
 export default {
   name: 'App',
-  
+  // data" {}
+  computed: {
+    isLogin() {
+      return this.$route.name == 'login'
+    }
+  },
   mounted() {
     const faviconLink = document.createElement('link');
     faviconLink.href = require('../src/assets/img/favicon.png'); // Pastikan path-nya benar

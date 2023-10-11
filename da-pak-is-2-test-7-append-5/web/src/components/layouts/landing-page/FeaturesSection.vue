@@ -55,6 +55,31 @@
 							<li data-filter=".filter-branding">Web</li>
 						</ul>
 
+						<!-- <div style="background-color:black; width:100px; height:100px;"></div> -->
+						<!-- <div style="border: 1px solid black; width:100px; height:100px;"></div> -->
+
+
+						<div class="row">							
+							<div class="col-lg" style="border: 1px solid black;">								
+								<div class="row">
+									a
+								</div>
+								<div class="row">
+									b
+								</div>
+							</div>
+							<div class="col-lg" style="border: 1px solid black;">								
+								<div class="row">
+									a
+								</div>
+								<div class="row">
+									b
+								</div>
+							</div>
+						</div>
+
+
+						
 						<div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 							<div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
 								<img src="https://mly0gabrrgqw.i.optimole.com/ZqRC4XA-yQ6ePCaF/w:10000/h:10000/q:auto/https://doctoraccounting.co.id/wp-content/uploads/2022/02/Neraca_Konsolidasi_Report.png" class="img-fluid" alt="">
