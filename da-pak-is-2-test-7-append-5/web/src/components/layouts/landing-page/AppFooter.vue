@@ -1,5 +1,5 @@
 <template>
-    <footer id="footer" class="footer">
+	<footer id="footer" class="footer">
 
 		<div class="container footer-top">
 			<div class="row gy-4">
@@ -7,7 +7,8 @@
 					<a href="index.html" class="logo d-flex align-items-center">
 						<span>Append</span>
 					</a>
-					<p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+					<p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies
+						darta donna mare fermentum iaculis eu non diam phasellus.</p>
 					<div class="social-links d-flex mt-4">
 						<a href=""><i class="bi bi-twitter"></i></a>
 						<a href=""><i class="bi bi-facebook"></i></a>
@@ -51,13 +52,15 @@
 		</div>
 
 		<div class="container copyright text-center mt-4">
-			<p>&copy; <span>Copyright {{ currentYear }}</span> <strong class="px-1">Doctor Accounting</strong> <span>All Rights Reserved</span></p>
+			<p>&copy; <span>Copyright {{ currentYear }}</span> <strong class="px-1">Doctor Accounting</strong> <span>All
+					Rights Reserved</span></p>
 		</div>
 
 	</footer>
 
 	<!-- Scroll Top Button -->
-	<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+	<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+			class="bi bi-arrow-up-short"></i></a>
 
 	<!-- Preloader -->
 	<div id="preloader">
@@ -69,22 +72,22 @@
 </template>
 
 <script>
-	import "../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"
-	import "../../assets/vendor/glightbox/js/glightbox.min.js"
-	import "../../assets/vendor/purecounter/purecounter_vanilla.js"
-	import "../../assets/vendor/isotope-layout/isotope.pkgd.min.js"
-	import "../../assets/vendor/swiper/swiper-bundle.min.js"
-	import "../../assets/vendor/aos/aos.js"
-	import "../../assets/vendor/php-email-form/validate.js"
-	import "../../assets/js/main.js"
-	
-	export default {
-		name: "AppFooter",
+import "../../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"
+import "../../../assets/vendor/glightbox/js/glightbox.min.js"
+import "../../../assets/vendor/purecounter/purecounter_vanilla.js"
+import "../../../assets/vendor/isotope-layout/isotope.pkgd.min.js"
+import "../../../assets/vendor/swiper/swiper-bundle.min.js"
+import "../../../assets/vendor/aos/aos.js"
+import "../../../assets/vendor/php-email-form/validate.js"
+import "../../../assets/js/main.js"
 
-		data () {
-			return {
-				currentYear: new Date().getFullYear()				
-			}
+export default {
+	name: "AppFooter",
+
+	data() {
+		return {
+			currentYear: new Date().getFullYear()
 		}
 	}
+}
 </script>

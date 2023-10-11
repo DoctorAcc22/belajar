@@ -1,5 +1,5 @@
 <template>
-    txtUsername
+	txtUsername
 	txtPassword
 
 	BtnLogin
@@ -9,8 +9,8 @@
 </template>
 
 <script>
-	
-	export default {
-		name: "LoginComponent"
-	}
+
+export default {
+	name: "LoginComponent"
+}
 </script>

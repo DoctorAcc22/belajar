@@ -1,9 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import HomeComponent from "./components/layouts/HomeComponent.vue"
-import LoginComponent from "./components/layouts/LoginComponent.vue"
-// import ProjectsComponent from "./components/ProjectsComponent.vue"
-// import ProjectDetailComponent from "./components/ProjectDetailComponent.vue"
+import HomeComponent from "./components/layouts/landing-page/HomeComponent.vue"
+import LoginComponent from "./components/layouts/back-office/LoginComponent.vue"
 import { createRouter, createWebHistory } from "vue-router"
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -14,10 +12,8 @@ app.config.globalProperties.$baseURL = "http://127.0.0.1:8000"
 app.config.globalProperties.$apiURL = "http://127.0.0.1:8000/api"
 
 const routes = [
-    { path: "/",  component: HomeComponent }, //Home
-    { path: "/login", name: 'login' , component: LoginComponent },
-    // { path: "/projects", component: ProjectsComponent }, //Halaman Projects
-    // { path: "/project/:id", component: ProjectDetailComponent }, //Project by id
+    { path: "/", component: HomeComponent },
+    { path: "/login", name: 'login', component: LoginComponent },
 ]
 
 const router = createRouter({
