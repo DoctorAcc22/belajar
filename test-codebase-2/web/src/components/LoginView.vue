@@ -6,6 +6,7 @@
 <script>
 // <link rel="stylesheet" id="css-main" href="assets/css/">
 // import "../../assets/css/codebase.min.css"
+import "jquery"
 import "@/assets/css/codebase.min.css"
 
 import "@/assets/js/codebase.core.min.js"
