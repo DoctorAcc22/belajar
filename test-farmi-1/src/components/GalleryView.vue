@@ -1,0 +1,139 @@
+<template>
+<!-- Start Breadcrumb 
+    ============================================= -->
+    <div class="breadcrumb-area text-center shadow dark bg-fixed text-light" style="background-image: url(/img/2440x1578.png);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <h1>Gallery</h1>
+                    <ul class="breadcrumb">
+                        <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                        <li class="active">Gallery</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Breadcrumb -->
+
+    <!-- Start Gallery Area
+    ============================================= -->
+    <div class="gallery-area default-padding">
+        <!-- Shape -->
+        <div class="fixed-shape">
+            <img src="/img/shape/5.png" alt="Shape">
+        </div>
+        <!-- Shape -->
+        <div class="container">
+            <div class="case-items-area">
+                <div class="masonary">
+                    <div id="portfolio-grid" class="gallery-items colums-3">
+                        <!-- Single Item -->
+                        <div class="pf-item">
+                            <div class="item">
+                                <div class="thumb">
+                                    <img src="/img/800x600.png" alt="Thumb">
+                                    <a href="/img/800x600.png" class="item popup-gallery"><i class="fa fa-plus"></i></a>
+                                </div>
+                                <div class="info">
+                                    <h4>
+                                        <a href="#">Natural Products</a>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Item -->
+
+                        <!-- Single Item -->
+                        <div class="pf-item">
+                            <div class="item">
+                                <div class="thumb">
+                                    <img src="/img/800x800.png" alt="Thumb">
+                                    <a href="/img/800x800.png" class="item popup-gallery"><i class="fa fa-plus"></i></a>
+                                </div>
+                                <div class="info">
+                                    <h4>
+                                        <a href="#">Organic Solution</a>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Item -->
+
+                        <!-- Single Item -->
+                        <div class="pf-item">
+                            <div class="item">
+                                <div class="thumb">
+                                    <img src="/img/800x800.png" alt="Thumb">
+                                    <a href="/img/800x800.png" class="item popup-gallery"><i class="fa fa-plus"></i></a>
+                                </div>
+                                <div class="info">
+                                    <h4>
+                                        <a href="#">Agriculture & Farming</a>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Item -->
+
+                        <!-- Single Item -->
+                        <div class="pf-item">
+                            <div class="item">
+                                <div class="thumb">
+                                    <img src="/img/800x800.png" alt="Thumb">
+                                    <a href="/img/800x800.png" class="item popup-gallery"><i class="fa fa-plus"></i></a>
+                                </div>
+                                <div class="info">
+                                    <h4>
+                                        <a href="#">Harvest Innovation</a>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Item -->
+
+                        <!-- Single Item -->
+                        <div class="pf-item">
+                            <div class="item">
+                                <div class="thumb">
+                                    <img src="/img/800x600.png" alt="Thumb">
+                                    <a href="/img/800x600.png" class="item popup-gallery"><i class="fa fa-plus"></i></a>
+                                </div>
+                                <div class="info">
+                                    <h4>
+                                        <a href="#">Natural Products</a>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Item -->
+
+                        <!-- Single Item -->
+                        <div class="pf-item">
+                            <div class="item">
+                                <div class="thumb">
+                                    <img src="/img/800x600.png" alt="Thumb">
+                                    <a href="/img/800x600.png" class="item popup-gallery"><i class="fa fa-plus"></i></a>
+                                </div>
+                                <div class="info">
+                                    <h4>
+                                        <a href="#">Organic Solution</a>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Item -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Gallery Area -->
+</template>
+
+<script>
+export default {
+	name: "GalleryView"
+}
+</script>
