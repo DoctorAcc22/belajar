@@ -1,14 +1,20 @@
 <template>
-  <AppHeader />
-  <AppSidebar />  
-  <RouterView />
-	<AppFooter />
+  <AppSidebar />
+
+  <div id="content-wrapper" class="d-flex flex-column">
+    <div id="content">
+      <AppHeader />
+      <RouterView />
+      <AppFooter />
+    </div>
+  </div>
 </template>
 
 <script>
-import AppHeader from "./components/layouts/AppHeader.vue"
-import AppSidebar from "./components/layouts/AppSidebar.vue"
-import AppFooter from "./components/layouts/AppFooter.vue"
+import AppHeader from "./components/AppHeader.vue"
+import AppSidebar from "./components/AppSidebar.vue"
+import AppFooter from "./components/AppFooter.vue"
+
 
 export default {
   name: 'App',
