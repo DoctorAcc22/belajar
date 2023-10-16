@@ -36,22 +36,22 @@
                             <!-- Sign In Form -->
                             <!-- jQuery Validation functionality is initialized with .js-validation-signin class in js/pages/op_auth_signin.min.js which was auto compiled from _js/pages/op_auth_signin.js -->
                             <!-- For more examples you can check out https://github.com/jzaefferer/jquery-validation -->
-                            <form class="js-validation-signin px-30" action="be_pages_auth_all.html" method="post">
+                            <form class="js-validation-signin px-30" @submit.prevent="login" method="post">
                                 <div class="form-group row">
                                     <div class="col-12">
                                         <div class="form-material floating">
-                                            <input type="text" class="form-control" id="login-username"
-                                                name="login-username">
-                                            <label for="login-username">Username</label>
+                                            <input type="text" class="form-control" id="email"
+                                                name="email" v-model="user.email">
+                                            <label for="email">Username</label>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <div class="col-12">
                                         <div class="form-material floating">
-                                            <input type="password" class="form-control" id="login-password"
-                                                name="login-password">
-                                            <label for="login-password">Password</label>
+                                            <input type="password" class="form-control" id="password"
+                                                name="password" v-model="user.password">
+                                            <label for="password">Password</label>
                                         </div>
                                     </div>
                                 </div>
@@ -92,12 +92,34 @@
 </template>
 
 <script>
-// import "@/assets/js/pages/op_auth_signin.min.js"
 import AOS from 'aos';
+import axios from "axios"
 import { onMounted } from 'vue';
 
 export default {
     name: "LoginView",
+
+    data() {
+        return {
+            user: {
+                email: '',
+                password: ''
+            }
+        }
+    },
+
+    methods: {
+        login() {
+            axios.post(this.$apiURL + "/login", this.user)
+                .then(response => {
+                        alert("login berhasil")
+                })
+                .catch(error => {
+                    alert("login salah")
+                });
+        },
+    },
+
     setup() {
         onMounted(() => {
             AOS.init()

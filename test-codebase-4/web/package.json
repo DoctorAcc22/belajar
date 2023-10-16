@@ -13,6 +13,7 @@
     "@ckeditor/ckeditor5-build-inline": "^25.0.0",
     "@fortawesome/fontawesome-free": "^5.15.2",
     "aos": "^2.3.4",
+    "axios": "^1.5.1",
     "bootstrap": "^4.6.0",
     "bootstrap-colorpicker": "^3.2.0",
     "bootstrap-datepicker": "^1.9.0",
