@@ -11,7 +11,7 @@
                         <div class="col-lg-12">
                             <ol class="carousel-indicators">
                                 <li data-target="#bootcarousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#bootcarousel" data-slide-to="1"></li>
+                                <li data-target="#bootcarousel" data-slide-to="1" class=""></li>
                             </ol>
                         </div>
                     </div>
@@ -21,20 +21,18 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner carousel-zoom">
                 <div class="carousel-item active">
-                    <div class="slider-thumb bg-fixed" style="background-image: url(/img/2440x1578.png);"></div>
+                    <div class="slider-thumb bg-fixed" style="background-image: url(assets/img/2440x1578.png);"></div>
                     <div class="box-table">
                         <div class="box-cell shadow dark-hard">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-lg-10 offset-lg-1">
                                         <div class="content">
-                                            <h2 data-animation="animated zoomInLeft">Farm <strong>Company</strong></h2>
+                                            <h2 data-animation="animated zoomInLeft" class="">Farm <strong>Company</strong></h2>
                                             <p class="animated slideInRight">
-                                                Coming merits and was talent enough far. Sir joy northward sportsmen
-                                                education. Discovery incommode earnestly no he commanded.
+                                                Coming merits and was talent enough far. Sir joy northward sportsmen education. Discovery incommode earnestly no he commanded.
                                             </p>
-                                            <a data-animation="animated slideInUp" class="animated-btn" href="#"><i
-                                                    class="fas fa-angle-right"></i> Discover More</a>
+                                            <a data-animation="animated slideInUp" class="animated-btn animated slideInUp" href="#"><i class="fas fa-angle-right"></i> Discover More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -43,20 +41,18 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="slider-thumb bg-fixed" style="background-image: url(/img/2440x1578.png);"></div>
+                    <div class="slider-thumb bg-fixed" style="background-image: url(assets/img/2440x1578.png);"></div>
                     <div class="box-table">
                         <div class="box-cell shadow dark-hard">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-lg-10 offset-lg-1">
                                         <div class="content">
-                                            <h2 data-animation="animated slideInDown">Best <strong>harvest</strong></h2>
+                                            <h2 data-animation="animated slideInDown" class="">Best <strong>harvest</strong></h2>
                                             <p class="animated slideInRight">
-                                                Coming merits and was talent enough far. Sir joy northward sportsmen
-                                                education. Discovery incommode earnestly no he commanded.
+                                                Coming merits and was talent enough far. Sir joy northward sportsmen education. Discovery incommode earnestly no he commanded.
                                             </p>
-                                            <a data-animation="animated slideInUp" class="animated-btn" href="#"><i
-                                                    class="fas fa-angle-right"></i> Discover More</a>
+                                            <a data-animation="animated slideInUp" class="animated-btn" href="#"><i class="fas fa-angle-right"></i> Discover More</a>
                                         </div>
                                     </div>
                                 </div>
